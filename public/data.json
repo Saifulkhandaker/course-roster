@@ -5,7 +5,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/m6bZRLt/Rectangle-2-2.png",
         "price": 15000,
-        "credit_time": 1
+        "credit": 1
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/4YCcTFP/Rectangle-2-3.png",
         "price": 25000,
-        "credit_time": 2
+        "credit": 2
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/Kb4x1NR/Rectangle-2-4.png",
         "price": 10000,
-        "credit_time": 10
+        "credit": 10
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/vXdhFDS/Rectangle-3.png",
         "price": 35000,
-        "credit_time": 5
+        "credit": 5
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/dk3W2nB/Rectangle-2.png",
         "price": 19000,
-        "credit_time": 5
+        "credit": 5
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/x2tf7y0/Rectangle-2-5.png",
         "price": 23000,
-        "credit_time": 2
+        "credit": 2
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/2KskBtW/Rectangle-3-1.png",
         "price": 35000,
-        "credit_time": 5
+        "credit": 5
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/L1XSjmG/Rectangle-2-1.png",
         "price": 19000,
-        "credit_time": 5
+        "credit": 5
     },
     {
         "id": 9,
@@ -69,6 +69,6 @@
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "image": "https://i.ibb.co/CHW8rrK/Rectangle-2-6.png",
         "price": 23000,
-        "credit_time": 2
+        "credit": 2
     }
 ]

@@ -26,10 +26,15 @@ const Cards = () => {
                 count = count + item.credit;
             });
             const totalRemaining = 20 - count;
-            setTotalCost(count);
+            if(count > 20){
+                return alert('sorry your credit limit crossed');
+            }
+            else{
+                setTotalCost(count);
             setRemainning(totalRemaining);
             setSelectedCard([...selectedCard, card]);
-            
+
+            }  
         }
         
     }

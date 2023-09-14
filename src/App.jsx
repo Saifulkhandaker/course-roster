@@ -7,7 +7,7 @@ function App() {
     <>
       
       <h1 className='text-4xl font-bold text-center mt-5 mb-5'>Course Registration</h1>
-      <div>
+      <div className='mb-10'>
         <Cards></Cards>
 
       </div>

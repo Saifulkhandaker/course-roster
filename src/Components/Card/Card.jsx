@@ -1,7 +1,7 @@
 import { IoBookSharp } from 'react-icons/io5';
 
 
-const Card = ({ card }) => {
+const Card = ({ card, handleCard }) => {
   const { title, image, description, price, credit } = card;
   return (
     <div>
@@ -26,7 +26,7 @@ const Card = ({ card }) => {
            </div>
             
           </div>
-            <button className="btn w-full text-lg text-white font-semibold bg-[#2F80ED]">Select</button>
+            <button onClick={() => handleCard(card)} className="btn w-full text-lg text-white font-semibold bg-[#2F80ED]">Select</button>
         </div>
       </div>
     </div>

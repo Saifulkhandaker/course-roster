@@ -1,7 +1,7 @@
 const Cart = () => {
     return (
         <div>
-            <h1 className="text-2xl font-bold">Cart</h1>
+            <h1 className="w-full text-lg font-medium px-5 py-2">Credit Hour Remainning </h1>
             
         </div>
     );

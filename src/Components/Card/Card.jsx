@@ -15,7 +15,7 @@ const Card = ({ card }) => {
           />
         </figure>
         <div className="card-body items-center text-center">
-          <h2 className="card-title text-2xl font-bold">{title}</h2>
+          <h2 className="card-title text-lg font-bold">{title}</h2>
           <p className='text-lg'>{description}</p>
           <div className='flex gap-20'>
             <p className='font-medium text-xl'>$ Price : {price}</p>

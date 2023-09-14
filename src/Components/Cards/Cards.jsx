@@ -13,10 +13,9 @@ const Cards = () => {
     },[])
 
     const handleCard = (card) =>{
+        
         setSelectedCard([...selectedCard, card]);
     }
-    console.log(selectedCard);
-
 
 
 

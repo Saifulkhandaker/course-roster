@@ -13,8 +13,15 @@ const Cards = () => {
     },[])
 
     const handleCard = (card) =>{
+        const isExist = selectedCard.find(item => item.id === card.id);
+        if(isExist){
+            return alert('Course alreay exist');
+        }
+        else{
+            setSelectedCard([...selectedCard, card]);
+            
+        }
         
-        setSelectedCard([...selectedCard, card]);
     }
 
 

@@ -5,6 +5,8 @@ import Cart from "../Cart/Cart";
 const Cards = () => {
     const [cards, setCards] = useState([]);
     const [selectedCard, setSelectedCard] = useState([]);
+    const [remainning, setRemainning] = useState(0);
+    const [totalCost, setTotalCost] = useState(0);
 
     useEffect(() => {
         fetch("data.json")
@@ -14,10 +16,18 @@ const Cards = () => {
 
     const handleCard = (card) =>{
         const isExist = selectedCard.find(item => item.id === card.id);
+
+        let count = card.credit;
         if(isExist){
             return alert('Course alreay exist');
         }
         else{
+            selectedCard.forEach(item => {
+                count = count + item.credit;
+            });
+            const totalRemaining = 20 - count;
+            setTotalCost(count);
+            setRemainning(totalRemaining);
             setSelectedCard([...selectedCard, card]);
             
         }
@@ -41,6 +51,9 @@ const Cards = () => {
             <div className="mt-5">
                 <Cart
                 selectedCard={selectedCard}
+                remainning={remainning}
+                totalCost={totalCost}
+
                 ></Cart>
             </div>
 

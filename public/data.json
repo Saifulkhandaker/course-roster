@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Introduction C Programming",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "C programming is a versatile language used for software development, known for its efficiency, control, and broad application in computing.",
         "image": "https://i.ibb.co/m6bZRLt/Rectangle-2-2.png",
         "price": 15000,
         "credit": 1
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Introduction to Algorithms",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Algorithms are step-by-step procedures or rules for solving problems, often used in computer science to process data and make decisions.",
         "image": "https://i.ibb.co/4YCcTFP/Rectangle-2-3.png",
         "price": 25000,
         "credit": 2
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "Introduction to C++ for DSA",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "C++ is a powerful, object-oriented programming language, known for its versatility and application in software development.",
         "image": "https://i.ibb.co/Kb4x1NR/Rectangle-2-4.png",
         "price": 10000,
         "credit": 10
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Basic Data Structures",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Basic data structures are fundamental elements like arrays and lists used to store and organize data efficiently in computer programming.",
         "image": "https://i.ibb.co/vXdhFDS/Rectangle-3.png",
         "price": 35000,
         "credit": 5
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Introduction to OOP Python",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Object-Oriented Programming in Python is a paradigm that structures code around objects, reusability, and clarity in design.",
         "image": "https://i.ibb.co/dk3W2nB/Rectangle-2.png",
         "price": 19000,
         "credit": 5
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Software Engineering",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Software engineering is the systematic application of principles and practices to maintain, and manage software projects efficiently.",
         "image": "https://i.ibb.co/x2tf7y0/Rectangle-2-5.png",
         "price": 23000,
         "credit": 2
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "title": "AWS, Cloud Computing",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Amazon Web Services (AWS) is a leading cloud computing platform, providing scalable, service computation, and more.",
         "image": "https://i.ibb.co/2KskBtW/Rectangle-3-1.png",
         "price": 35000,
         "credit": 5
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "title": "Database (MySQL)",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "MySQL is an open-source relational database management system, widely used for storing, managing, data in applications.",
         "image": "https://i.ibb.co/L1XSjmG/Rectangle-2-1.png",
         "price": 19000,
         "credit": 5
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "title": "Problem-Solving Part",
-        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "description": "Problem-solving is a cognitive process that involves analyzing and finding solutions to challenges or issues through logical reasoning.",
         "image": "https://i.ibb.co/CHW8rrK/Rectangle-2-6.png",
         "price": 23000,
         "credit": 2

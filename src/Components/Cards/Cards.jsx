@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import Cart from "../Cart/Cart";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cards = () => {
   const [cards, setCards] = useState([]);
@@ -19,14 +21,14 @@ const Cards = () => {
 
     let count = card.credit;
     if (isExist) {
-      return alert("Course alreay exist");
+      return toast("Course already in cart");
     } else {
       selectedCard.forEach((item) => {
         count = count + item.credit;
       });
       const totalRemaining = 20 - count;
       if (count > 20) {
-        return alert("sorry your credit limit crossed");
+        return toast("sorry your credit limit crossed");
       } else {
         setTotalCost(count);
         setRemainning(totalRemaining);
@@ -39,7 +41,8 @@ const Cards = () => {
     <div className="w-11/12 mx-auto lg:flex gap-5 mt-5">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         {cards.map((card) => (
-          <Card card={card} handleCard={handleCard}></Card>
+          <Card card={card} handleCard={handleCard}
+          ></Card>
         ))}
       </div>
       <div className="mt-5 lg:mt-0">

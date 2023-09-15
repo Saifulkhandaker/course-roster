@@ -1,4 +1,5 @@
 import { IoBookSharp } from "react-icons/io5";
+import { ToastContainer } from "react-toastify";
 
 const Card = ({ card, handleCard }) => {
   const { title, image, description, price, credit } = card;
@@ -28,6 +29,7 @@ const Card = ({ card, handleCard }) => {
           >
             Select
           </button>
+          <ToastContainer></ToastContainer>
         </div>
       </div>
     </div>

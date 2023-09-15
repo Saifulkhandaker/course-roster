@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import Cart from "../Cart/Cart";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Cards = () => {
   const [cards, setCards] = useState([]);
@@ -39,10 +39,9 @@ const Cards = () => {
 
   return (
     <div className="w-11/12 mx-auto lg:flex gap-5 mt-5">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
         {cards.map((card) => (
-          <Card card={card} handleCard={handleCard}
-          ></Card>
+          <Card card={card} handleCard={handleCard}></Card>
         ))}
       </div>
       <div className="mt-5 lg:mt-0">

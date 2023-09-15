@@ -6,10 +6,11 @@ const Cart = ({ selectedCard, remainning, totalCost }) => {
       </h1>
       <hr className="w-full mt-2" />
       <h1 className="text-lg font-bold mt-5">Course Name:</h1>
-      {selectedCard.map((card) => (
-        <li className="text-sm text-[#1c1b1b99] font-medium mt-2">
+      {selectedCard.map((card, index) => (
+        <div className="text-sm text-[#1c1b1b99] font-medium mt-2">
+          <span className="font-medium">{index + 1}. </span>
           {card.title}
-        </li>
+        </div>
       ))}
       <hr className="w-full mt-5" />
       <h2 className="mt-2 text-sm font-medium">

@@ -21,14 +21,14 @@ const Cards = () => {
 
     let count = card.credit;
     if (isExist) {
-      return toast("Course already in cart");
+      return toast.error("Course already in cart");
     } else {
       selectedCard.forEach((item) => {
         count = count + item.credit;
       });
       const totalRemaining = 20 - count;
       if (count > 20) {
-        return toast("sorry your credit limit crossed");
+        return toast.error("Sorry your credit limit crossed");
       } else {
         setTotalCost(count);
         setRemainning(totalRemaining);

@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Cards = () => {
   const [cards, setCards] = useState([]);
   const [selectedCard, setSelectedCard] = useState([]);
-  const [remainning, setRemainning] = useState(0);
+  const [remainning, setRemainning] = useState(20);
   const [totalCost, setTotalCost] = useState(0);
 
   useEffect(() => {
